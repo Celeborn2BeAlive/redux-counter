@@ -1,0 +1,26 @@
+{
+  "name": "redux-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=env",
+    "start": "npm run babel-node -- ./src/index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.17.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}
